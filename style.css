@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.foto1{
+    width: 940px;
+    margin: 0 auto;   
+ }
+
+ .manual{
+    display: inline;
+    position: relative;
+    width: 880px;
+    padding: 265px;
+    margin: 380px;
+    top: 35px;
+}
+
+.Titulo-Tela h1{
+    display: flex;
+    justify-content: center;
+    text-transform:initial;
+    font-size: 65px;  
+}
+
+.principal{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    text-transform:none;
+    font-style: italic;
+    
+}
+.titulo-centralizado{
+    justify-content: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    background: rgb(227, 226, 226);
+    margin: 5px;
+}
+
+.principal{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: initial;
+}
+
+.beneficios{
+    font-size: 20px;
+}
+
+.beneficios{
+    justify-content: center;
+    text-align: center
+}
+header{
+    margin: 0px;
+    padding: 0px;
+}
+.menu { 
+    position:absolute;
+    top: 275px;
+    right: 0;
+    text-decoration: none;
+}
+  
+.menu:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.menu li{
+    display: inline;
+    margin:0  0  0 280px;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.img1{
+    text-align: center;
+    background: rgb(163, 161, 164);    
+}
+
+#img2{
+    display: flex;
+    justify-content: center;   
+}
+
+
+header{
+    position: relative;
+    background: rgb(163, 161, 164);  
+    padding: 40px 0;
+    height: 200px;
+    
+}
+
+.caixa{
+    position: relative;
+    width: 880px;
+    margin: auto 0px;
+}
+
+nav{
+    position:absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+} 
+   
+    
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.produtos{
+    width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+
+}
+
+.produtos li:active{
+    border: #c78c19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+header {
+    background: rgb(163, 161, 164); 
+    padding: 45px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 120px;
+    right: 0;
+   
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.produtos {
+	width: 900px;  
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1,5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border: #c78c19;
+}
+
+.produtos li:active {
+    border: #c78c19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+
+}
+
+.produto-preco {
+     font-size: 22px;
+     font-weight: bold;
+     margin-top: 10px; 
+}
+
+
+main {
+    width: 860px;
+    margin: 0 auto;
+}
+
+
+
+form {
+    margin: 50px 0;
+    
+}
+
+form label, form legend {
+    display: block;
+    font-size: 30px;
+    margin: 0 0 10px;
+    text-transform: none;
+    
+}
+
+.input {
+    width: 50%;
+
+}
+.input-padrao {
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 53px 0;
+}
+
+.enviar{
+    width: 35%;
+    padding: 13px 0;
+    background: silver;
+    color: white;
+    font-weight:bold;
+    font-size: 16px;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+   
+}
+
+.enviar:hover{
+    background: silver;
+    transform: none;
+    
+
+}
+
+table{
+    margin: 35px 0 40px;
+    
+}
+
+footer { 
+    text-align: center;
+    padding: 3px 0;
+    background: rgb(151, 149, 149);
+}
+
+
+thead {
+    background: rgb(135, 134, 134);
+    color: white;
+    font-weight: bold;
+}
+
+
+
+td, th {
+    border: 1px solid silver;
+    padding: 10px 15px;
+    width: 10%;
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+}
+
